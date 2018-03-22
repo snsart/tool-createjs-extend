@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>cjsextend演示示例</title>
+		<link rel="stylesheet" type="text/css" href="css/first.css" />
+	</head>
+
+	<body class="body">
+		<!--居中空div-->
+		<div class="margin-auto">
+			<!--容器-->
+			<div class="wrap">
+				<!-- 公用头部-->
+				<header class="header">
+					<!--标题-->
+					<div class="header-text" style="width:80%">
+						<ul class="pasteQue_ul">
+							<li class="selected"><span class="selected">演示示例</span>
+							<a>|</a>
+							</li>
+							<!--<li><span>练一练</span>
+								<a>|</a>
+							</li>-->
+							<li><span>拓展</span>
+							</li>
+						</ul>
+						<div class="horLine"></div>
+					</div>
+					<!--logo位置-->
+					<div class="logo"></div>
+
+				</header>
+				<!-- 内容容器-->
+				<div class="content contentOver">
+
+					<div class="content-text">
+						<div class="tabPage">
+							<div class="innerPage">
+								<h3>1.拖动</h3>
+								<div class="demon_Btn animaStep" id="demon_BtnA">
+										交互演示
+									<span class="arrowRight "></span>
+								</div>
+									
+								<div class="demonstration" >
+									<div class="animaContrl" style="border: none;">
+										<canvas id="canvas1" width="724" height="543" style="width:7.6rem;"></canvas>
+									</div>
+								</div>
+								
+							</div>
+				
+							<div class="innerPage">
+								<h3>2.复制拖动</h3>
+								<div class="demon_Btn animaStep" id="demon_BtnC">
+										交互演示
+									<span class="arrowRight "></span>
+								</div>
+									
+								<div class="demonstration" style="display: none;">
+									<div class="animaContrl" style="border: none;">
+										<canvas id="canvas2" width="724" height="543" style="width:7.6rem;"></canvas>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						
+					</div>
+
+					<div class="bottom-bar-empty"></div>
+				</div>
+				<img src="img/fw.png" class="bottom-tootha" id="initBtn" />
+				<div class="prevQueBtn"></div>
+				<div class="nextQueBtn"></div>
+				<footer class="bottom-bar">
+
+					<div class="top-btn"></div>
+					<!--<div class="next-btn animaHideBtn"></div>
+					<div class="prev-btn animaHideBtn"></div>-->
+
+				</footer>
+			</div>
+		</div>
+		<script src="js/h5_loader_primary_math.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/h5_init_primary_math.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
