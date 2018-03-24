@@ -1,4 +1,0 @@
-egret引擎配置：
-1.安装node.js
-2.安装ts编译器：使用node的npm命令：npm install -g typescript  进行安装
-3.安装egret engine 可下载egret Launcher工具进行安装管理

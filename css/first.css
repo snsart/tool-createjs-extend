@@ -1,76 +1,53 @@
- /**
-  * 页面head最先加载的css
-  *
-  * @thinlong
-  * 2016.9.21
-  * v1.0
-  * 功能:页面淡入效果 
-  */
-html {
+body{
+	margin: 0;
+	text-align: center;
+	font-size: 100px;
+	background-color:black;
+}
+.margin{
+	margin: 0 auto;
+	background-color:#ffffff;
+	width: 70rem;
+	height: 70rem;
+}
+header{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-bottom: groove;
+}
+header ul{
+	font-size: 0;
+}
+header ul li{
+	font-size: 1rem;
+	list-style: none;
+	display: inline-block;
+	margin: 0 3rem;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+header ul .selected{
+	border:thin;
+	border-radius: 0.2rem;
 	background-color: #000000;
-	
-    animation: fadeIn 1s linear;
-    -moz-animation: fadeIn 1s linear;   	/* Firefox */
-    -webkit-animation: fadeIn 1s linear;	/* Safari 和 Chrome */
-    -o-animation: fadeIn 1s linear;	        /* Opera */
+	color: #FFFFFF;
+	padding: 0.2rem;
 }
 
-@keyframes fadeIn
-{
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-.text2{
-	display: none;
-}
-.bottom-tooth{width:4.41rem;height:1.73rem;background-image:url(../img/fw.png);left:8.1rem;bottom: 0.91rem;cursor: pointer;position: relative;z-index: 999;}
-.bottom-tooth6-h{width:0.9666rem;height:1.4606rem;background-image:url(../img/fw.png);left:8.1rem;bottom: 0.91rem;}
-
-
-.move-drag {
-    display: block;
-    min-width: 1px;
-    height: auto;
-    cursor: move;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    float: left;
-}
-		/*button {
-    width: 4.41rem !important;
-    height: 1.73rem !important;
-  
-    cursor: pointer;
-
-}*/
-.bottom-tootha {
-position: fixed;
-    width: 0.8rem;
-    height: 0.33rem;
-    left: 0.1rem;
-    cursor: pointer;
-    bottom: 0.4rem;
-    z-index: 999;
-}
-.pasteQue_ul li span{
-position: relative;
-    color: rgba(255,255,255,0.4);
-    display: inline-block;
-    cursor: pointer;
-    height: 0.4rem;
-    padding-left: 0.38rem;
-    padding-bottom: 0.3rem;
-    color: rgb(23, 160, 175)!important;
+.tabPage{
 	
 }
-.pasteQue_ul li span.selected {
-    color: #39c5e4 !important;
-    background: url(../img/triangle.svg) no-repeat bottom;
-    background-size: 0.22rem;
+
+.tabPage .header{
+	font-size: 1.5rem;
+	text-align: left;
+	margin-top: 0.2rem;
+	padding:0.2rem 2.5rem;
+	background-color:#999;	
+}
+
+canvas{
+	width: 80rem;
 }

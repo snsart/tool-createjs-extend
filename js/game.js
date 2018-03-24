@@ -18,27 +18,8 @@ function init() {
 }
 
 function gameInit(){
-	var left=window.screenLeft;
-	console.log(left);
-	window.moveTo(0,0);
-	console.log(left);
-	var ss=window.open("https://www.baidu.com");
-	console.log(ss);
-	//location.href="https://www.baidu.com";
-	console.log(navigator.cpuClass);
-	console.log(document.childNodes);
-	console.log(document.domain);
-	
-	window.addEventListener("beforeunload",function(e){
-		console.log(12345454545445);
-		e.returnValue="ok!!!!!!";
-		return "ok!!!1";
-	})
-	
-	
 	
 	//复制拖动行为测试
-	
 	root.ballMc.libName="ball";
 	
 	//元件复制
@@ -92,11 +73,6 @@ function gameInit(){
 		this.y=10;
 		var x1=15;
 	}
-	
-	var a1=new Func();
-	console.log(a1 instanceof Func);
-	console.log(Func.prototype);
-	console.log(a1.prototype);
 
 }
 
