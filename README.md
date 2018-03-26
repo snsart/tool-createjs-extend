@@ -1,47 +1,47 @@
 # createjsExtend中提供的功能的API如下：
 
-#createjsExtend.createLibMc(libName) Container;
+## createjsExtend.createLibMc(libName) Container;
 创建flashCC库中的一个元素，此元素在库中的连接名为libName，具体参见实例中的demo1
 
-#Parameters:
+### Parameters:
 libName 库中元件的名字
-#Returns:
+### Returns:
 Container flashcc库中的元件
 
 
-#createjsExtend.getDistance(mc1,mc2) number;
-计算两个元件之间的距离
-#Parameters: 
-mc1,mc2 计算距离的两个元件
-#Returns:
-Number 两个元件在舞台中的距离
+## createjsExtend.getDistance(mc1,mc2) number;</br>
+计算两个元件之间的距离</br>
+### Parameters: </br>
+mc1,mc2 计算距离的两个元件</br>
+### Returns:</br>
+Number 两个元件在舞台中的距离</br>
 
 
-# createjsExtend.drawSectorHandToHand=function(shape, startHandAngle, endHandAngle, color,r)</br>
+## createjsExtend.drawSectorHandToHand=function(shape, startHandAngle, endHandAngle, color,r)</br>
 
 画扇形 度数按表的度数为标准，即起始点0度为12:00方向.</br>
-@param shape 一个形状，扇形画在shape上</br>
-@param startAngle 扇形第一条边的度数</br>
-@param endAngle 扇形第二条边的度数</br>
-@param color 扇形填充颜色</br>
-@r 扇形半径</br>
+### param shape 一个形状，扇形画在shape上</br>
+### param startAngle 扇形第一条边的度数</br>
+### param endAngle 扇形第二条边的度数</br>
+### param color 扇形填充颜色</br>
+### r 扇形半径</br>
 2017.12.7新增功能</br>
 
 
-#createjsExtend.drawSector=function(shape, x, y, r, angle, startFrom, color)
-画扇形 度数按X轴正向为起点.
-@param shape 一个形状，扇形画在shape上
-@param x,y,r 扇形圆心偏移位置及扇形半径
-@param angle 扇形角度
-@param startFrom 扇形起始角度
-@color 扇形颜色
-* 2017.12.7新增功能*/
+## createjsExtend.drawSector=function(shape, x, y, r, angle, startFrom, color)</br>
+画扇形 度数按X轴正向为起点.</br>
+### param shape 一个形状，扇形画在shape上</br>
+### param x,y,r 扇形圆心偏移位置及扇形半径</br>
+### param angle 扇形角度</br>
+### param startFrom 扇形起始角度</br>
+### color 扇形颜色</br>
+2017.12.7新增功能</br>
 
-#createjsExtend.drawPolygon=function(shape,points,thickness,strokeColor,fillColor)
-画多变形.
-@param shape 一个形状，多边形画在shape上
-@param points 一个数组，用来存储多边形每一个角的位置
-@param thickness 线条粗细
-@param strokeColor 线条颜色
-@fillColor 填充颜色
-* 2017.12.8新增功能*/
+## createjsExtend.drawPolygon=function(shape,points,thickness,strokeColor,fillColor)</br>
+画多变形.</br>
+### param shape 一个形状，多边形画在shape上</br>
+### param points 一个数组，用来存储多边形每一个角的位置</br>
+### param thickness 线条粗细</br>
+### param strokeColor 线条颜色</br>
+### fillColor 填充颜色</br>
+2017.12.8新增功能</br>
