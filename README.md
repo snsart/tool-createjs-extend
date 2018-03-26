@@ -17,15 +17,15 @@ mc1,mc2 计算距离的两个元件
 Number 两个元件在舞台中的距离
 
 
-#createjsExtend.drawSectorHandToHand=function(shape, startHandAngle, endHandAngle, color,r)
+# createjsExtend.drawSectorHandToHand=function(shape, startHandAngle, endHandAngle, color,r)</br>
 
-画扇形 度数按表的度数为标准，即起始点0度为12:00方向.
-@param shape 一个形状，扇形画在shape上
-@param startAngle 扇形第一条边的度数
-@param endAngle 扇形第二条边的度数
-@param color 扇形填充颜色
-@r 扇形半径
-* 2017.12.7新增功能*/
+画扇形 度数按表的度数为标准，即起始点0度为12:00方向.</br>
+@param shape 一个形状，扇形画在shape上</br>
+@param startAngle 扇形第一条边的度数</br>
+@param endAngle 扇形第二条边的度数</br>
+@param color 扇形填充颜色</br>
+@r 扇形半径</br>
+2017.12.7新增功能</br>
 
 
 #createjsExtend.drawSector=function(shape, x, y, r, angle, startFrom, color)
