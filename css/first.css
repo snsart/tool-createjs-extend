@@ -28,6 +28,17 @@ header ul li{
 	-moz-user-select: none;
 }
 
+header ul li:hover{
+	font-size: 1rem;
+	list-style: none;
+	display: inline-block;
+	margin: 0 3rem;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	font-weight: bold;
+}
+
 header ul .selected{
 	border:thin;
 	border-radius: 0.2rem;
