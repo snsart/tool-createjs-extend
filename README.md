@@ -46,3 +46,15 @@
 >strokeColor 线条颜色</br>
 >fillColor 填充颜色</br>
 2017.12.8新增功能</br>
+
+### createjs.Container.prototype.addDrawLineAction=function(targetMc,stageMc,stage,thickness,color)</br>
+单击当前元件进行连线，当前元件有一个数组属性linkMcs，用来存储所有与其互连的元件,当完成连线时，会发送"drawLine"事件,需用到arrayUtils文件;</br>
+* param
+>targetMc 所要连接的目标元件(影片剪辑)</br>
+>stageMc 存储线条的画板(影片剪辑)</br>
+>stage 舞台</br>
+>thickness 线条粗细</br>
+>color 线条颜色</br>
+2017.12.7新增功能</br>
+
+
