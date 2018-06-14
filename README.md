@@ -57,4 +57,37 @@
 >color 线条颜色</br>
 2017.12.7新增功能</br>
 
+### createjs.Container.prototype.fillColor=function(color)</br>
+改变显示对象的填充颜色</br>
+* param
+>color 要填充的颜色</br>
+
+### createjs.Container.prototype.strokeColor=function(color)</br>
+改变显示对象的边线颜色</br>
+* param
+>color 要填充的颜色</br>
+
+
+### createjs.Container.prototype.addDragAction=dragAction;</br>
+### createjs.DisplayObject.prototype.addDragAction=dragAction;</br>
+function dragAction(rect,stage,center=false,down=false);</br>
+为显示对象添加拖动行为，可为拖动的对象定义mouseupHandler方法，当鼠标释放时会执行此方法，也可定义moveHandler方法，当鼠标移动时执行此方法；</br>
+ * param 
+>rect createjs.Rectangle对象,限定了对象可拖动的范围</br>
+>stage 舞台对象，当鼠标在stage上移动时会拖动对象</br>
+>center 可选参数，当为true时，鼠标会限定在对象的注册中心点，默认为false</br>
+>down 可选参数，规定鼠标初始状态是否按下，默认为false</br>
+
+### createjs.Container.prototype.addRotateAction=function(stage)</br>
+为显示对象添加旋转行为，可为旋转的对象定义mouseupHandler方法，当鼠标释放时会执行此方法，也可定义moveHandler方法，当鼠标移动时执行此方法；</br>
+* param
+>stage 舞台对象，当鼠标在stage上移动时会拖动对象</br>
+
+### createjs.Container.prototype.adsorb=function(targetArr,dis)</br>
+当元件与数组targetArr中的任一元件mc的距离小于dis时，元件会被吸附到mc所在位置；</br>
+ * param 
+ >targetArr 目标</br>
+ >dis 吸附距离</br>
+ 
+ 
 
