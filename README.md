@@ -70,7 +70,7 @@
 
 ### createjs.Container.prototype.addDragAction=dragAction;</br>
 ### createjs.DisplayObject.prototype.addDragAction=dragAction;</br>
-function dragAction(rect,stage,center=false,down=false);</br>
+### function dragAction(rect,stage,center=false,down=false);</br>
 为显示对象添加拖动行为，可为拖动的对象定义mouseupHandler方法，当鼠标释放时会执行此方法，也可定义moveHandler方法，当鼠标移动时执行此方法；</br>
  * param 
 >rect createjs.Rectangle对象,限定了对象可拖动的范围</br>
