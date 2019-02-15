@@ -4,23 +4,23 @@ createjsExtend是基于CreateJS开发的一套工具库，此工具增强了crea
 这个例子创建了一个显示对象，并为此显示对象添加了拖拽功能：
 ```javascript
 stage = new createjs.Stage("demoCanvas");
-    //创建一个形状的显示对象
-    circle = new createjs.Shape();
-    circle.graphics.beginFill("red").drawCircle(0, 0, 40);
-    circle.x = circle.y = 50;
-    stage.addChild(circle);
- 	//为circle添加拖拽功能，第一个参数设置了拖动范围
-    cjsExtend(circle).addDragAction(new createjs.Rectangle(0,0,724,543),stage);
+//创建一个形状的显示对象
+circle = new createjs.Shape();
+circle.graphics.beginFill("red").drawCircle(0, 0, 40);
+circle.x = circle.y = 50;
+stage.addChild(circle);
+//为circle添加拖拽功能，第一个参数设置了拖动范围
+cjsExtend(circle).addDragAction(new createjs.Rectangle(0,0,724,543),stage);
 ```
 也可以直接为用flashCC创建的影片剪辑添加行为，并且可以链式添加方法：
 ```javascript
-	//root.mc为flashCC创建的示例名为mc的影片剪辑，下面方法设置mc的颜色为红色，并为mc添加拖拽行为
-	cjsExtend(root.mc).fillColor("#ff0000").addDragAction(new createjs.Rectangle(0,0,724,543),stage);
+//root.mc为flashCC创建的示例名为mc的影片剪辑，下面方法设置mc的颜色为红色，并为mc添加拖拽行为
+cjsExtend(root.mc).fillColor("#ff0000").addDragAction(new createjs.Rectangle(0,0,724,543),stage);
 ```
 
 
 createjsExtend也提供了一些createjs没提供的常用方法，比如画多边形、画扇形等，下面为画多边形的示例：
-```
+```javascript
 var shape=new createjs.Shape();
 //多边形的顶点
 var points=[{x:50,y:50},{x:100,y:50},{x:100,y:200},{x:80,y:200}];
