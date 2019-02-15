@@ -35,7 +35,7 @@ cjsExtend.extend=cjsExtend.prototype.extend=function(){
 	return target;
 }
 
-cjsExtend({
+cjsExtend.extend({
 	
 	createLibMc:function(libName){
 		var newMc
@@ -174,7 +174,7 @@ cjsExtend({
 
 });
 
-cjsExtend.extend({
+cjsExtend.prototype.extend({
 	
 	/*
 	 * 为显示对象添加拖动行为，可为拖动的对象定义mouseupHandler方法，当鼠标释放时会执行此方法，也可定义moveHandler方法，当鼠标移动时执行此方法；
@@ -185,7 +185,7 @@ cjsExtend.extend({
 	 * 2017.11.27:添加dragable属性
 	 */
 	
-	addDragAction: function (rect,stage,center=false,down=false){
+	addDragAction:function (rect,stage,center=false,down=false){
 		var dragMc=this[0];
 		if(dragMc.dragable==null){
 			dragMc.dragable=true;
@@ -289,7 +289,7 @@ cjsExtend.extend({
 			mcdown=false;
 		})
 		return this;
-	}
+	},
 	
 	
 	
@@ -485,12 +485,12 @@ cjsExtend.extend({
 	 */
 	
 	copy:function(){
-		var mc=this;
+		var mc=this[0];
 		var newMc;
 		if(mc.libName==null||mc.libName==""){
 			throw new Error("请为元件添加libName属性");
 		}
-		newMc=createjsExtend.createLibMc(mc.libName)
+		newMc=cjsExtend.createLibMc(mc.libName)
 		newMc.libName=mc.libName;
 		return newMc;
 	},
@@ -503,7 +503,7 @@ cjsExtend.extend({
 	goto:function(targetArr,dis){
 		var mc=this[0];
 		for(var i=0;i<targetArr.length;i++){
-			if(createjsExtend.getDistance(mc,targetArr[i])<dis){
+			if(cjsExtend.getDistance(mc,targetArr[i])<dis){
 				mc.x=targetArr[i].x;
 				mc.y=targetArr[i].y;
 				return true;
