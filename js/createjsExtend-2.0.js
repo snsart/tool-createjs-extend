@@ -1,8 +1,8 @@
 /*
- * description:对createjs中的Container方法进行扩展，提供了课件制作中元件所需要的常用方法，如拖动、旋转等行为。
+ * description:对通过createjs创建的方法进行扩展，提供了课件制作中元件所需要的常用方法，如拖动、旋转、改变颜色等行为。
  *@author:jinhailiang
  *createDate:2017.11.15
- *updateDate:2018.3.8
+ *updateDate:2019.2.15
  * 2.0新增：将方法改为链式调用；
  * */
 
@@ -500,7 +500,7 @@ cjsExtend.prototype.extend({
 	 * @param targetArr 目标
 	 * @param dis 吸附距离
 	 */
-	goto:function(targetArr,dis){
+	adsorb:function(targetArr,dis){
 		var mc=this[0];
 		for(var i=0;i<targetArr.length;i++){
 			if(cjsExtend.getDistance(mc,targetArr[i])<dis){

@@ -449,87 +449,87 @@ p.nominalBounds = new cjs.Rectangle(-76.5,-18.9,197.1,29.5);
 
 	// 图层 1
 	this.b6 = new lib.ball1();
-	this.b6.setTransform(497.2,389.6);
+	this.b6.setTransform(-221.8,387.6);
 
 	this.b5 = new lib.ball1();
-	this.b5.setTransform(532.2,355.9);
+	this.b5.setTransform(-186.8,353.8);
 
 	this.b4 = new lib.ball1();
-	this.b4.setTransform(583.2,377.6);
+	this.b4.setTransform(-135.7,375.6);
 
 	this.b3 = new lib.ball1();
-	this.b3.setTransform(571.2,437.2);
+	this.b3.setTransform(-147.7,435.1);
 
 	this.b2 = new lib.ball1();
-	this.b2.setTransform(497.2,462.2);
+	this.b2.setTransform(-221.8,460.1);
 
 	this.text = new cjs.Text("画多边形", "26px 'Times New Roman'", "#16B6C6");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 26;
 	this.text.lineWidth = 130;
-	this.text.setTransform(457.2,298.4);
+	this.text.setTransform(-261.8,296.4);
 
 	this.b1 = new lib.ball1();
-	this.b1.setTransform(456.2,417.1);
+	this.b1.setTransform(-262.8,415.1);
 
 	this.ball2 = new lib.ball1();
-	this.ball2.setTransform(160.1,405.1);
+	this.ball2.setTransform(-558.9,403.1);
 
 	this.ball1 = new lib.ball1();
-	this.ball1.setTransform(56.1,405.1);
+	this.ball1.setTransform(-662.9,403.1);
 
 	this.text_1 = new cjs.Text("连线", "26px 'FZLanTingHei-DB-GBK'", "#16B6C6");
 	this.text_1.textAlign = "center";
 	this.text_1.lineHeight = 26;
 	this.text_1.lineWidth = 54;
-	this.text_1.setTransform(106.1,349.9);
+	this.text_1.setTransform(-612.9,347.8);
 
 	this.text_2 = new cjs.Text("旋转", "26px 'FZLanTingHei-DB-GBK'", "#16B6C6");
 	this.text_2.textAlign = "center";
 	this.text_2.lineHeight = 26;
 	this.text_2.lineWidth = 100;
-	this.text_2.setTransform(576.2,138.8);
+	this.text_2.setTransform(542.2,231.8);
 
 	this.rotaMc2 = new lib.元件2();
-	this.rotaMc2.setTransform(457.1,61.1);
+	this.rotaMc2.setTransform(-261.8,59);
 
 	this.rotaMc1 = new lib.元件1();
-	this.rotaMc1.setTransform(584.6,190.9);
+	this.rotaMc1.setTransform(550.6,283.9);
 
 	this.ansTxt = new cjs.Text("", "26px 'FZLanTingHei-DB-GBK'", "#E1E6E9");
 	this.ansTxt.name = "ansTxt";
 	this.ansTxt.textAlign = "center";
 	this.ansTxt.lineHeight = 26;
 	this.ansTxt.lineWidth = 68;
-	this.ansTxt.setTransform(258.5,42.7);
+	this.ansTxt.setTransform(-460.4,40.6);
 
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#151822").s().p("AmMBtIAAjLQAAhcBdAAIJxAAQA0AAAXAcQgXgNgjAAIpyAAQhbAAgBBcIAADKQABApARAXQgigWgBg4g");
-	this.shape.setTransform(259.6,58.3);
+	this.shape.graphics.f("#151822").s().p("AmMBsIAAjKQAAhcBdAAIJxAAQA0AAAWAcQgVgOgkABIpyAAQhcgBABBcIAADLQAAApASAXQgkgWAAg5g");
+	this.shape.setTransform(-459.3,56.3);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#353E55").s().p("AlBC6QgjAAgWgNQgSgXAAgpIAAjKQAAhcBcAAIJyAAQAjAAAWANQASAXAAApIAADLQAABchcgBg");
-	this.shape_1.setTransform(261.4,59.7);
+	this.shape_1.graphics.f("#353E55").s().p("AlAC6QgkAAgWgNQgSgXAAgpIAAjLQAAhcBcABIJxAAQAkgBAWAOQASAXAAApIAADKQAABchcAAg");
+	this.shape_1.setTransform(-457.6,57.7);
 
 	this.keyboard = new lib.keyboard();
-	this.keyboard.setTransform(257.5,189.9,1.414,1.414);
+	this.keyboard.setTransform(-461.4,187.9,1.414,1.414);
 
 	this.ballMc = new lib.Ball();
-	this.ballMc.setTransform(73,56);
+	this.ballMc.setTransform(265,208.9);
 
 	this.stageMc = new lib.元件4();
-	this.stageMc.setTransform(109.6,397.6);
+	this.stageMc.setTransform(-609.4,395.6);
 
 	this.canvasMc = new lib.canvas1();
-	this.canvasMc.setTransform(520.7,416.6);
+	this.canvasMc.setTransform(-198.3,414.6);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f().s("rgba(255,255,255,0.161)").ss(1,1,1).p("ALpmeIcIAAIAARzI8IAAgEgnwgVyIccAAMAAAArlI8cAAg");
-	this.shape_2.setTransform(416.6,170.6);
+	this.shape_2.graphics.f().s("rgba(255,255,255,0.161)").ss(1,1,1).p("EBBJAGLIcJAAIAAR0I8JAAgEhdRgX+IccAAMAAAArlI8cAAg");
+	this.shape_2.setTransform(40.2,182.6);
 
 	this.addChild(this.shape_2,this.canvasMc,this.stageMc,this.ballMc,this.keyboard,this.shape_1,this.shape,this.ansTxt,this.rotaMc1,this.rotaMc2,this.text_2,this.text_1,this.ball1,this.ball2,this.b1,this.text,this.b2,this.b3,this.b4,this.b5,this.b6);
 }).prototype = p = new cjs.Container();
-p.nominalBounds = new cjs.Rectangle(395.6,300.5,638.7,439.7);
+p.nominalBounds = new cjs.Rectangle(-323.4,299.5,1323.6,438.6);
 
 })(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
 var lib, images, createjs, ss;
