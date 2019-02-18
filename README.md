@@ -29,7 +29,7 @@ cjsExtend.drawPolygon(shape,points,1,"#ff0000","#ffffff");
 
 下面为createjsExtend提供的所有方法：
 
-## createjsExtend中提供的API如下：
+## createjsExtend中提供的方法：
 
 ### cjsExtend.createLibMc(libName) Container;
 创建flashCC库中的一个元素，此元素在库中的连接名为libName，具体参见实例中的demo1
@@ -67,6 +67,7 @@ cjsExtend.drawPolygon(shape,points,1,"#ff0000","#ffffff");
 >startFrom 扇形起始角度</br>
 >color 扇形颜色</br>
 2017.12.7新增功能</br>
+
 
 ### cjsExtend.drawPolygon(shape,points,thickness,strokeColor,fillColor)</br>
 画多变形.</br>
